@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript event assignment</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- index.html -->
+<button id="changeTextBtn">Click Me!</button>
+<p id="text">Hello, World!</p>
+
+<!-- Add this to index.html -->
+<button id="hoverBtn">Hover Over Me!</button>
+
+<!-- index.html -->
+<div id="gallery">
+    <img id="currentImage" src="image1.jpg" alt="Gallery Image" width="300">
+    <button id="nextImageBtn">Next Image</button>
+</div>
+
+<!-- index.html -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab 1</button>
+    <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+</div>
+
+<div id="Tab1" class="tabcontent">
+    <h3>Tab 1</h3>
+    <p>Content for Tab 1.</p>
+</div>
+<div id="Tab2" class="tabcontent" style="display:none;">
+    <h3>Tab 2</h3>
+    <p>Content for Tab 2.</p>
+</div>
+<!-- index.html -->
+<form id="myForm">
+    <input type="text" id="name" required placeholder="Enter your name">
+    <input type="email" id="email" required placeholder="Enter your email">
+    <input type="password" id="password" required placeholder="Enter password">
+    <button type="submit">Submit</button>
+</form>
+
+    
+</body>
+</html>
